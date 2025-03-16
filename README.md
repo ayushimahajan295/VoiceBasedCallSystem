@@ -1,18 +1,14 @@
-# 🏥 Voice Patient AI System
+# Voice Patient AI System
 
 This project is a **voice-enabled AI system** that processes patient requests using speech-to-text, translation, intent classification, and text-to-speech. The backend is built using **FastAPI** and integrates **MongoDB** for storing interactions.
 
----
+## Features
+1. **Speech-to-Text:** Converts voice into text  
+2. **Translation:** Supports multiple languages (default: Hindi to English)  
+3. **Intent Classification:** Identifies the patient's request type  
+4. **Text-to-Speech:** Reads the response aloud  
 
-## 🚀 Features
-✅ **Speech-to-Text:** Converts voice into text  
-✅ **Translation:** Supports multiple languages (default: Hindi to English)  
-✅ **Intent Classification:** Identifies the patient's request type  
-✅ **Text-to-Speech:** Reads the response aloud  
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 ### **Backend**
 - FastAPI
 - MongoDB
@@ -24,10 +20,7 @@ This project is a **voice-enabled AI system** that processes patient requests us
 - React Native (Expo)
 - Axios (API Calls)
 
----
-
----
-### **1. Install Backend Deoendencies**
+### **1. Install Backend Dependencies**
 ```sh
 cd backend
 python -m venv venv   
